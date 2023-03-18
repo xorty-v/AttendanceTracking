@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AttendanceTracking.Backend", "AttendanceTracking.Backend", "{F582EF4A-403A-416F-9368-8D3448A5DC69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{9D024891-DDE0-4FBF-9F7C-929D033EC053}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{EB733FFF-2B97-4ADD-A43E-ABF3A0441CBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{9357C41C-36AE-4DD3-B0D8-5140D97C2B66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8EE55855-BA70-46C0-85C4-2D3DD7171CED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttendanceTracking.Domain", "AttendanceTracking.Backend\AttendanceTracking.Domain\AttendanceTracking.Domain.csproj", "{0B651B0B-7C65-47BB-A009-457FDEB7D3AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttendanceTracking.Application", "AttendanceTracking.Backend\AttendanceTracking.Application\AttendanceTracking.Application.csproj", "{8CFA7DA0-FD29-4C6F-92FA-F86A80FA346D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttendanceTracking.Persistence", "AttendanceTracking.Backend\AttendanceTracking.Persistence\AttendanceTracking.Persistence.csproj", "{AF0ED45B-9F5B-4E26-A656-1A0C83B22044}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttendanceTracking.WebApi", "AttendanceTracking.Backend\AttendanceTracking.WebApi\AttendanceTracking.WebApi.csproj", "{DAC1020F-712C-4990-8467-6CAD3228281B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9D024891-DDE0-4FBF-9F7C-929D033EC053} = {F582EF4A-403A-416F-9368-8D3448A5DC69}
+		{EB733FFF-2B97-4ADD-A43E-ABF3A0441CBC} = {F582EF4A-403A-416F-9368-8D3448A5DC69}
+		{9357C41C-36AE-4DD3-B0D8-5140D97C2B66} = {F582EF4A-403A-416F-9368-8D3448A5DC69}
+		{8EE55855-BA70-46C0-85C4-2D3DD7171CED} = {F582EF4A-403A-416F-9368-8D3448A5DC69}
+		{0B651B0B-7C65-47BB-A009-457FDEB7D3AD} = {9D024891-DDE0-4FBF-9F7C-929D033EC053}
+		{8CFA7DA0-FD29-4C6F-92FA-F86A80FA346D} = {9D024891-DDE0-4FBF-9F7C-929D033EC053}
+		{AF0ED45B-9F5B-4E26-A656-1A0C83B22044} = {9357C41C-36AE-4DD3-B0D8-5140D97C2B66}
+		{DAC1020F-712C-4990-8467-6CAD3228281B} = {EB733FFF-2B97-4ADD-A43E-ABF3A0441CBC}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B651B0B-7C65-47BB-A009-457FDEB7D3AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B651B0B-7C65-47BB-A009-457FDEB7D3AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B651B0B-7C65-47BB-A009-457FDEB7D3AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B651B0B-7C65-47BB-A009-457FDEB7D3AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CFA7DA0-FD29-4C6F-92FA-F86A80FA346D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CFA7DA0-FD29-4C6F-92FA-F86A80FA346D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CFA7DA0-FD29-4C6F-92FA-F86A80FA346D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CFA7DA0-FD29-4C6F-92FA-F86A80FA346D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF0ED45B-9F5B-4E26-A656-1A0C83B22044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF0ED45B-9F5B-4E26-A656-1A0C83B22044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF0ED45B-9F5B-4E26-A656-1A0C83B22044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF0ED45B-9F5B-4E26-A656-1A0C83B22044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC1020F-712C-4990-8467-6CAD3228281B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC1020F-712C-4990-8467-6CAD3228281B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC1020F-712C-4990-8467-6CAD3228281B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC1020F-712C-4990-8467-6CAD3228281B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
