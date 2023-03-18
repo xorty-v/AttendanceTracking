@@ -7,7 +7,12 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\AttendanceTracking.Application\AttendanceTracking.Application.csproj" />
       <ProjectReference Include="..\AttendanceTracking.Domain\AttendanceTracking.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.8" />
     </ItemGroup>
 
 </Project>
